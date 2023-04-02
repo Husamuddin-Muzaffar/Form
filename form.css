@@ -1,3 +1,111 @@
-body{
-    background-color: aqua;
+.maindiv{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formdiv{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 90vh;
+    width: 80vh;
+}
+
+.signup{
+    border: 1px solid black;
+    width: 90%;    
+    height: 100px;
+}
+
+.names{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 70px;
+    
+}
+
+.names input{
+    height: 70%;
+    width: 45%;
+    
+}
+
+.email{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+}
+
+.email input{
+    height: 70%;
+    width: 94%;
+}
+
+.password{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+}
+
+.password input{
+    height: 70%;
+    width: 94%;
+}
+
+.date{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+}
+
+.date input{
+    height: 70%;
+    width: 94%;
+}
+
+.gender{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 70px;
+}
+
+.gender div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70%;
+}
+
+.information{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    height: 70px;
 }
