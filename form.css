@@ -1,29 +1,86 @@
 .maindiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F2F5;
+    height: 100vh;
 }
 
 .formdiv{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     height: 90vh;
-    width: 70vh;
+    width: 65vh;
+    /* padding-top: 20px; */
 }
 
+.facebook{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90px;
+}
+
+.textfacebook{
+    color: #146cdf;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.border{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 85vh;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.419);
+    border-radius: 5px;
+    background-color: white;
+}
+/* .husam{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+} */
+
 .signup{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 90%;    
-    height: 100px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.signup h1{
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.signup span{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.615);
+    font-weight: 400;
 }
 
 .names{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +100,7 @@
 }
 
 .email{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +117,7 @@
 }
 
 .password{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,7 +134,7 @@
 }
 
 .date{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,17 +150,43 @@
     width: 94%;
 }
 
+
+
 .gender{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
     width: 90%;
     height: 70px;
 }
 
-.gender div{
+.gender .textgender{
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    padding-left: 20px;
+    
+}
+
+.gender .textgender label{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.615);
+}
+
+.gender .btngender{
+    margin-top: -5px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.gender .btngender div{
     border: 1px solid rgba(0, 0, 0, 0.303);
     background-color: #e6e6e690;
     border-radius: 6px;    
@@ -115,11 +198,54 @@
 }
 
 .information{
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 90%;
+    height: 90px;
+}
+
+.information p{
+    /* text-align: start; */
+    /* padding-top: 10px; */
+    /* padding-left: 10px; */
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.615);
+    text-align: inherit;
+}
+
+.information span{
+    color: #0549a1;
+}
+
+.btn{
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     width: 90%;
     height: 70px;
+}
+
+.btn input{
+    height: 65%;
+    width: 50%;
+    border-radius: 6px; 
+    background-color: #119F16;
+    color: white;
+    font-size: 25px;
+    border: none;
+    font-weight: bold;
+}
+
+input::placeholder {
+    padding-left: 10px;
+}
+
+.already h3{
+    color: #146cdf;
 }
